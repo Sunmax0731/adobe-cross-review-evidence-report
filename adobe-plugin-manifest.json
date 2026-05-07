@@ -1,0 +1,7 @@
+{
+  "id": "com.sunmax0731.adobe-cross-review-evidence-report",
+  "name": "Adobe横断レビュー・作業証跡レポート",
+  "version": "0.1.0-alpha.1",
+  "targetHost": "Bridge",
+  "closedAlpha": true
+}
