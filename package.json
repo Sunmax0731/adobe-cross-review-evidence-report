@@ -5,9 +5,11 @@
   "type": "module",
   "description": "Adobe横断レビュー・作業証跡レポート closed alpha",
   "scripts": {
-    "test": "node tests/product.test.mjs",
+    "test": "node tests/product.test.mjs && node tools/platform-runtime-gate.mjs && node tools/closed-alpha-guard.mjs",
     "validate": "node src/cli/index.js --input samples/representative-suite.json --output dist/adobe-cross-review-evidence-report-representative-report.json",
-    "build": "node scripts/build-docs-zip.mjs"
+    "build": "node scripts/build-docs-zip.mjs",
+    "platform:gate": "node tools/platform-runtime-gate.mjs",
+    "closed-alpha:guard": "node tools/closed-alpha-guard.mjs"
   },
   "keywords": [
     "AdobePlugin",
