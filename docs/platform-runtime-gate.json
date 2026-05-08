@@ -1,0 +1,11 @@
+{
+  "product": "adobe-cross-review-evidence-report",
+  "title": "Adobe横断レビュー・作業証跡レポート",
+  "domain": "AdobePlugin",
+  "ideaNo": 12,
+  "platformType": "adobe-host-plugin",
+  "expectedPublicTarget": "BOOTH / GitHub Release",
+  "browser": null,
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
